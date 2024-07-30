@@ -37,11 +37,32 @@
     "./../images/n4.png"
 ];
 let imgIndex = 0;
-    if(imgIndex > 0)
+
+function prev(){
+    if(imgIndex==0)
+        imgIndex =imgArray.length -1;
+    else
+        imgIndex--;  
+/*
+if(imgIndex > 0)
         imgIndex--;
-    
+    */
 const imgElement1 = document.getElementById("img1");
 imgElement1.src = imgArray[imgIndex]
+}
+function next(){
+   if(imgIndex==imgArray.length - 1)
+        imgIndex = 0;
+    else
+        imgIndex++;  
+/*
+if(imgIndex < imgArray.length -1){
+    imgIndex++
+}*/
+const imgElement1 = document.getElementById("img1");
+imgElement1.src = imgArray[imgIndex]
+}
+setInterval(next , 2000);
 
 </script>
 </body>
