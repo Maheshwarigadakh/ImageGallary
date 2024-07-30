@@ -5,7 +5,7 @@
 .navbar{
     height: 10%;
     width: 100%;
-    background-color: red;
+    background-color: rgb(20, 3, 55);
 }
 .left{
     padding: 2px;
@@ -15,4 +15,16 @@
     height: 50px;
     border-radius: 50px;
     margin-left: 60px;
+}
+.right{
+    display: flex;
+    color: black;
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: 35px;
+}
+.right a{
+    margin-top: -50px;
+    text-decoration: none;
+    color: white;
 }
