@@ -4,3 +4,4 @@ const img=[
     "./images/clg3.jpg",
     "./images/clg4.jpg",
 ];
+let imgIndex = 0;
