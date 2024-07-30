@@ -29,10 +29,15 @@
     text-decoration: none;
     color: white;
 }
+H1{
+    text-align: center;
+    color: rgb(41, 226, 72);
+}
 .gallary{
     display: block;
-    margin: 50px auto;
-    height: 400px;
+    margin: 10px auto;
+    height: 500px;
+    width: 800px;
     border-radius: 50px;
     border: 2px solid black;
 
