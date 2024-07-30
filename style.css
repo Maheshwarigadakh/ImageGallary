@@ -32,5 +32,7 @@
 .gallary{
     margin: 50px 240px;
     height: 400px;
-
+    border-radius: 50px;
+    border: 2px solid black;
+    
 }
