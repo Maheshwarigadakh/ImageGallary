@@ -25,6 +25,12 @@
 }
 .right a{
     margin-top: -50px;
+    margin-left: 150px;
     text-decoration: none;
     color: white;
+}
+.gallary{
+    margin: 50px 240px;
+    height: 400px;
+
 }
